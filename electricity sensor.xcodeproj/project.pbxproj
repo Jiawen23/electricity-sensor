@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		055AAC3423AD831F00867B7E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 055AAC3323AD831F00867B7E /* main.cpp */; };
+		055AAC3D23AD83B800867B7E /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 055AAC3B23AD83B800867B7E /* common.cpp */; };
+		055AAC4023AD83FE00867B7E /* electricitysensor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 055AAC3E23AD83FE00867B7E /* electricitysensor.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		055AAC3023AD831F00867B7E /* electricity sensor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "electricity sensor"; sourceTree = BUILT_PRODUCTS_DIR; };
 		055AAC3323AD831F00867B7E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		055AAC3A23AD838900867B7E /* radiomessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = radiomessage.h; sourceTree = "<group>"; };
+		055AAC3B23AD83B800867B7E /* common.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = common.cpp; sourceTree = "<group>"; };
+		055AAC3C23AD83B800867B7E /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		055AAC3E23AD83FE00867B7E /* electricitysensor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = electricitysensor.cpp; sourceTree = "<group>"; };
+		055AAC3F23AD83FE00867B7E /* electricitysensor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = electricitysensor.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +64,12 @@
 		055AAC3223AD831F00867B7E /* electricity sensor */ = {
 			isa = PBXGroup;
 			children = (
+				055AAC3B23AD83B800867B7E /* common.cpp */,
+				055AAC3C23AD83B800867B7E /* common.h */,
 				055AAC3323AD831F00867B7E /* main.cpp */,
+				055AAC3A23AD838900867B7E /* radiomessage.h */,
+				055AAC3E23AD83FE00867B7E /* electricitysensor.cpp */,
+				055AAC3F23AD83FE00867B7E /* electricitysensor.h */,
 			);
 			path = "electricity sensor";
 			sourceTree = "<group>";
@@ -119,7 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				055AAC3D23AD83B800867B7E /* common.cpp in Sources */,
 				055AAC3423AD831F00867B7E /* main.cpp in Sources */,
+				055AAC4023AD83FE00867B7E /* electricitysensor.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
